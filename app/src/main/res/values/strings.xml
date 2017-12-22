@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SelfCare Monitor</string>
+    <string-array name="gender">
+        <item>Select Gender</item>
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+
+    <string-array name="blood_group">
+        <item>Select Blood Group</item>
+        <item>O Positive</item>
+        <item>A Positive</item>
+        <item>B Positive</item>
+        <item>AB Positive</item>
+        <item>O Negative</item>
+        <item>A Negative</item>
+        <item>B Negative</item>
+        <item>AB Negative</item>
+    </string-array>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.selfcaremonitor.StepCounterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/orange_circle"
+            android:src="@drawable/ic_step"
+            android:padding="30dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:text="Steps"/>
+
+        <TextView
+            android:id="@+id/tvSteps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:id="@+id/ivPlayPause"
+            android:layout_width="48dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/pink_rounded_rect"
+            android:src="@drawable/ic_play"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:text="Step Counter works on Motion Sensors, such as accelerometer, Which detects movements of Device i.e. tilt, shake, rotation, swing"
+        android:background="#222222"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/tvReport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report"
+        android:textSize="16sp"
+        android:drawableTop="@drawable/ic_report"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"/>
+</RelativeLayout>
